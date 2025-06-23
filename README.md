@@ -65,3 +65,10 @@ For this project, we plan to use:
 - **Frontend Developer:** Works on the user interface, integrating it with backend APIs.
 - **DevOps Engineer:** Handles deployment, CI/CD pipelines, and infrastructure automation.
 - **QA Engineer:** Tests the application to ensure functionality, security, and performance.
+## Technology Stack
+
+- **Django:** Web framework used for building backend APIs.
+- **MySQL/PostgreSQL:** Database systems used to store data such as users, properties, and bookings.
+- **GraphQL (optional):** For efficient API querying.
+- **Docker:** Containerizes the application for consistent development and deployment environments.
+- **GitHub Actions:** Automates testing and deployment pipelines.
