@@ -108,3 +108,11 @@ To protect user data and ensure secure backend operations, the following securit
 - **Rate Limiting:** Limits the number of requests a user can make in a set timeframe to prevent abuse.
 - **Data Validation & Sanitization:** Input data is validated and sanitized to prevent malicious inputs.
 - **Secure Payment Handling:** Sensitive payment details are never stored in the system; third-party payment gateways (like Stripe or PayPal) are used.
+## CI/CD Pipeline
+
+The Continuous Integration and Continuous Deployment (CI/CD) pipeline automates the process of testing, building, and deploying the application to ensure fast and reliable releases.
+
+- **GitHub Actions:** Automatically runs tests and checks whenever code is pushed to the repository.
+- **Docker:** Containerizes the application to ensure consistent environments across development, testing, and production.
+- **Deployment:** The application can be deployed on platforms like Heroku or Render to enable easy hosting and scaling.
+- **Automation:** These tools help reduce manual errors, speed up release cycles, and maintain application quality.
