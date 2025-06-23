@@ -38,3 +38,14 @@ Relationships:
 - **Booking System:** Users can search for available properties and make bookings with selected dates.
 - **Review System:** Users can leave reviews and ratings for properties they have booked.
 - **Payment Integration:** Secure handling of payments related to bookings, including transaction history.
+## API Security
+
+To ensure the safety of user data and secure backend operations, the following security measures will be implemented:
+
+- **Authentication:** Only registered users can access certain endpoints. We'll use token-based authentication (e.g., JWT).
+- **Authorization:** Access control based on user roles (e.g., only hosts can list properties, only users who booked can leave a review).
+- **Rate Limiting:** Protects against abuse by limiting how many requests a user can make within a time frame.
+- **Data Validation & Sanitization:** Prevents malicious data from entering the system by checking and cleaning inputs.
+- **Secure Payment Handling:** Sensitive payment details are never stored; instead, we use a third-party processor (e.g., Stripe or PayPal).
+
+These measures are critical to protect user information, ensure trust, and comply with modern security standards.
