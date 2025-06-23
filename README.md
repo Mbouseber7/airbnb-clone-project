@@ -31,3 +31,10 @@ Relationships:
 - A booking is linked to one property and one user.
 - A user can leave multiple reviews, each linked to a property.
 - Payments are linked to bookings.
+## Feature Breakdown
+
+- **User Management:** Users can register, log in, and manage their profiles securely.
+- **Property Management:** Hosts can list properties by providing details such as title, description, price, and availability.
+- **Booking System:** Users can search for available properties and make bookings with selected dates.
+- **Review System:** Users can leave reviews and ratings for properties they have booked.
+- **Payment Integration:** Secure handling of payments related to bookings, including transaction history.
