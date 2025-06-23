@@ -116,3 +116,15 @@ The Continuous Integration and Continuous Deployment (CI/CD) pipeline automates 
 - **Docker:** Containerizes the application to ensure consistent environments across development, testing, and production.
 - **Deployment:** The application can be deployed on platforms like Heroku or Render to enable easy hosting and scaling.
 - **Automation:** These tools help reduce manual errors, speed up release cycles, and maintain application quality.
+## Team Roles
+List each role on your team and what they do. Example: Backend Developer builds APIs, Database Admin manages data.
+## Technology Stack
+List all main technologies you used (e.g., Django, PostgreSQL) and 1 sentence about why you used each.
+## Database Design
+List main entities (User, Listing, Review, Payment, etc), their important fields, and relationships (who connects to who).
+## Feature Breakdown
+List the main features of your Airbnb clone project (e.g., user registration, property listings, booking system, reviews, payments).
+## API Security
+Explain how your API is secured (authentication, authorization, validation, rate limiting).
+## CI/CD Pipeline
+Briefly explain what CI/CD is, why it helps your project, and mention any tools used (e.g., GitHub Actions, Docker).
