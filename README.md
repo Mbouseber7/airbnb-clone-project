@@ -72,3 +72,19 @@ For this project, we plan to use:
 - **GraphQL (optional):** For efficient API querying.
 - **Docker:** Containerizes the application for consistent development and deployment environments.
 - **GitHub Actions:** Automates testing and deployment pipelines.
+## Database Design
+
+The project database consists of the following main entities:
+
+- **Users:** Stores user information including username, email, password, and contact details.
+- **Properties:** Contains details about property listings such as title, description, location, price, and availability.
+- **Bookings:** Records information about bookings made by users, including start and end dates, total price, and status.
+- **Reviews:** Stores user feedback on properties, including ratings and comments.
+- **Payments:** Tracks payment transactions with details like amount, method, and status.
+
+### Relationships
+
+- A user can list multiple properties.
+- A booking is associated with one property and one user.
+- Users can leave multiple reviews linked to different properties.
+- Payments are linked to bookings.
