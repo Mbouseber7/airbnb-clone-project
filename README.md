@@ -58,3 +58,10 @@ For this project, we plan to use:
 - **GitHub Actions:** To automatically run tests and checks whenever code is pushed to the repository.
 - **Docker:** To containerize the application for consistent deployment across different environments.
 - **Heroku or Render (Optional):** For hosting and deploying the application li
+## Team Roles
+
+- **Backend Developer:** Responsible for building and maintaining server-side logic, database models, and APIs.
+- **Database Administrator:** Designs and manages the database, ensuring data integrity and performance.
+- **Frontend Developer:** Works on the user interface, integrating it with backend APIs.
+- **DevOps Engineer:** Handles deployment, CI/CD pipelines, and infrastructure automation.
+- **QA Engineer:** Tests the application to ensure functionality, security, and performance.
