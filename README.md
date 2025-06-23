@@ -49,3 +49,12 @@ To ensure the safety of user data and secure backend operations, the following s
 - **Secure Payment Handling:** Sensitive payment details are never stored; instead, we use a third-party processor (e.g., Stripe or PayPal).
 
 These measures are critical to protect user information, ensure trust, and comply with modern security standards.
+## CI/CD Pipeline
+
+CI/CD (Continuous Integration and Continuous Deployment) automates the process of testing, building, and deploying code, making development faster and more reliable.
+
+For this project, we plan to use:
+
+- **GitHub Actions:** To automatically run tests and checks whenever code is pushed to the repository.
+- **Docker:** To containerize the application for consistent deployment across different environments.
+- **Heroku or Render (Optional):** For hosting and deploying the application li
