@@ -99,3 +99,12 @@ The Airbnb Clone backend includes the following key features:
 - **Payment Processing:** Integration with payment gateways to securely handle transactions related to bookings.
 - **API Security:** Implementation of authentication, authorization, rate limiting, and data validation to protect user data.
 - **CI/CD Pipeline:** Automated testing and deployment using GitHub Actions and Docker for seamless development and release cycles.
+## API Security
+
+To protect user data and ensure secure backend operations, the following security measures are implemented:
+
+- **Authentication:** Only registered users can access certain endpoints using token-based authentication (e.g., JWT).
+- **Authorization:** Role-based access control (hosts can list properties, users who booked can leave reviews).
+- **Rate Limiting:** Limits the number of requests a user can make in a set timeframe to prevent abuse.
+- **Data Validation & Sanitization:** Input data is validated and sanitized to prevent malicious inputs.
+- **Secure Payment Handling:** Sensitive payment details are never stored in the system; third-party payment gateways (like Stripe or PayPal) are used.
