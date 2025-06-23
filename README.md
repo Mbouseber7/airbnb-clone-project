@@ -16,3 +16,18 @@ The goal is to build a scalable backend using Django, with features like propert
 - **Frontend Developer:** (If applicable) Works on the user interface and experience, integrating with the backend APIs.
 - **DevOps Engineer:** Manages deployment, CI/CD pipelines, and infrastructure to ensure smooth and automated releases.
 - **QA Engineer:** Tests the application manually and/or automatically to ensure it works correctly and securely.
+## Database Design
+
+The main entities in the database include:
+
+- **Users:** Stores information about users such as username, email, password, and contact details.
+- **Properties:** Details about listed properties including title, description, location, price, and availability.
+- **Bookings:** Records bookings made by users with start date, end date, total price, and status.
+- **Reviews:** Feedback left by users on properties, including rating and comments.
+- **Payments:** Information about payment transactions including amount, payment method, and status.
+
+Relationships:
+- A user can list multiple properties.
+- A booking is linked to one property and one user.
+- A user can leave multiple reviews, each linked to a property.
+- Payments are linked to bookings.
