@@ -88,3 +88,14 @@ The project database consists of the following main entities:
 - A booking is associated with one property and one user.
 - Users can leave multiple reviews linked to different properties.
 - Payments are linked to bookings.
+## Feature Breakdown
+
+The Airbnb Clone backend includes the following key features:
+
+- **User Management:** Registration, login, profile management with secure authentication.
+- **Property Management:** Hosts can create and manage property listings with details like title, description, price, and availability.
+- **Booking System:** Users can search for properties and make bookings for selected dates.
+- **Review System:** Users can leave reviews and ratings on properties they have booked.
+- **Payment Processing:** Integration with payment gateways to securely handle transactions related to bookings.
+- **API Security:** Implementation of authentication, authorization, rate limiting, and data validation to protect user data.
+- **CI/CD Pipeline:** Automated testing and deployment using GitHub Actions and Docker for seamless development and release cycles.
